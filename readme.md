@@ -1,3 +1,3 @@
 # Holicamp
 
-Holiday play-scheme camp for children
+Holiday play-scheme camp for children.
