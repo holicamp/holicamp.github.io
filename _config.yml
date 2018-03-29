@@ -1,0 +1,48 @@
+title: Holicamp
+author: holicamp
+email: hello@holicamp.org.uk
+description: >
+  Holiday play-scheme camp for children
+baseurl: "/"
+url: "https://holicamp.github.io"
+# twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
+# github_username:  janczizikow # replace with your_github_username or comment to remove link from footer
+# instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
+# social:
+#   name: Your Name
+#   links:
+#     - https://twitter.com/BenBalter
+#     - https://www.facebook.com/ben.balter
+#     - https://www.linkedin.com/in/BenBalter
+#     - https://plus.google.com/+BenBalter
+#     - https://github.com/benbalter
+#     - https://keybase.io/benbalter
+
+# disqus:
+#   shortname: janczizikow # to enable comments replace with your_disqus_shortname
+
+# Build settings
+markdown: kramdown
+highlighter: rouge # or pygments or null
+theme: jekyll-sleek
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
