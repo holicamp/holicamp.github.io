@@ -1,4 +1,9 @@
-<a class="post-card" href="{{ post.url | relative_url }}" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+{% if post.typeform-url %}
+  <a class="post-card" {% if post.typeform-url != 'closed' %} href="{{ post.typeform-url }}" target="_blank" {% endif %}>
+{% else %}
+  <a class="post-card" href="{{ post.url | relative_url }}" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+{% endif %}
+
   {% if post.featured-img %}
   <figure class="post-card__thumb">
     <img

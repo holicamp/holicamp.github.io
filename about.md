@@ -1,13 +1,23 @@
 ---
 layout: page
-title: About
+title: Holiday play-schemes for children in London, UK
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+> Holicamp mission is to offer various holiday camps in London, including activities which have rich and clear educational goals, seriously supervised with enthusiasm! 
+> 
+> Our holiday camps are the perfect opportunity for children to take part into many fun activities like games and various sports!
+> 
+> In the future, Holicamp would like to offer a selection of quality holiday camps to all children, no matter their school or their origin.
+> 
+> We hope you appreciate our approach and we will do everything we can so your little ones enjoy their Holicamp experience!
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+**Michaël Blain**  
+**CEO, Holicamp Ltd**
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+---
+
+**Holicamp Ltd**  
+Suite 146 4 fortess Road  
+NW5 2ES London  
+United Kingdom

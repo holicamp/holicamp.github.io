@@ -18,21 +18,27 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/sleek_lg.jpg">
+    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/ashton-bingham-113943_lg.jpg">
       <div class="hero__wrap">
-        <h1 class="hero__title">Sleek</h1>
-        <p class="hero__meta">Modern Jekyll theme focused on speed performance & SEO best practices</p>
+        <h1 class="hero__title">Holicamp</h1>
+        <p class="hero__meta">Our mission is to offer various holiday camps in London, including activities which have rich and clear educational goals, seriously supervised with enthusiasm! </p>
       </div>
     </div>
 
     <main class="site__content">
       <section class="blog">
         <div class="container">
-          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            {% for post in site.posts %}
+          <h2 class="post-list-header">Upcoming Sessions</h2>
+          <div class="post-list">
+
+            {% for post in site.categories.camps %}
               {% include card.html %}
             {% endfor %}
+
+            <!-- {% for post in site.categories.blog %}
+              {% include card.html %}
+            {% endfor %} -->
 
             <!-- {% include pagination.html %} -->
           </div>

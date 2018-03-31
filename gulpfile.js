@@ -23,8 +23,6 @@ const htmlmin = require('gulp-htmlmin');
 const prefix = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
-const critical = require('critical');
-const sw = require('sw-precache');
 
 // Image Generation
 const responsive = require('gulp-responsive');
@@ -69,7 +67,7 @@ gulp.task('rebuild', ['jekyll-build'], function (done) {
 });
 
 // Serve after jekyll-build
-gulp.task('browser-sync', ['sass', 'js', 'sw', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -110,28 +108,6 @@ gulp.task('js', function() {
     .pipe(gulp.dest('assets/js'))
 });
 
-gulp.task('critical', function (cb) {
-  critical.generate({
-    base: '_site/',
-    src: 'index.html',
-    css: ['assets/css/main.css'],
-    dimensions: [{
-      width: 320,
-      height: 480
-    },{
-      width: 768,
-      height: 1024
-    },{
-      width: 1280,
-      height: 960
-    }],
-    dest: '../_includes/critical.css',
-    minify: true,
-    extract: false,
-    ignore: ['@font-face']
-  });
-});
-
 gulp.task('watch', function() {
   gulp.watch('_sass/**/*.scss', ['sass']);
   gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_posts/*.md',  'pages_/*.md', '_include/*html'], ['rebuild']);
@@ -148,16 +124,6 @@ gulp.task('html', function() {
     gulp.src('./_site/*/*html')
       .pipe(htmlmin({ collapseWhitespace: true }))
       .pipe(gulp.dest('./_site/./'))
-});
-
-gulp.task('sw', function() {
-  const rootDir ='./';
-  const distDir = './_site';
-
-  sw.write(`${rootDir}/sw.js`, {
-    staticFileGlobs: [distDir + '/**/*.{js,html,css,png,jpg,svg}'],
-    stripPrefix: distDir
-  });
 });
 
 // Images
@@ -215,4 +181,4 @@ gulp.task('serve', function() {
   });
 });
 
-gulp.task('build', ['sass', 'js', 'jekyll-build', 'img', 'sw']);
+gulp.task('build', ['sass', 'js', 'jekyll-build', 'img']);
