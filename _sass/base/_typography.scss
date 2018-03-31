@@ -115,3 +115,9 @@ blockquote {
   font-style: italic;
   border-left: 5px solid $primary;
 }
+
+.txt-center { text-align: center; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.txt-danger { color: $error; }
+.txt-success { color: $success; }

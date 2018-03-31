@@ -24,7 +24,15 @@
       <h2>{{ post.title | strip_html | truncate: 50 }}</h2>
       {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
       <span class="post-card__meta">
-        <time>{{ post.date | date: date_format }}</time>
+        {% if post.typeform-url %}
+          {% if post.typeform-url != 'closed' %}
+            Opened on: <time>{{ post.date | date: date_format }}</time>
+          {% else %}
+            <strong class="txt-danger">Fully booked</strong>
+          {% endif %}
+        {% else %}
+          <time>{{ post.date | date: date_format }}</time>
+        {% endif %}
       </span>
     </div>
     {% if post.summary %}
