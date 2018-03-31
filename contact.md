@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Let's get in touch!
+title: Talk to us!
 permalink: /contact/
 ---
 

@@ -4,6 +4,7 @@ email: hello@holicamp.org.uk
 description: Holiday play-scheme camp for children
 baseurl: ""
 url: "https://holicamp.org.uk"
+google_tag_manager: "UA-90339029-2"
 # twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
 # github_username:  janczizikow # replace with your_github_username or comment to remove link from footer
 # instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
