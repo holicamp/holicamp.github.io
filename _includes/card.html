@@ -26,7 +26,7 @@
       <span class="post-card__meta">
         {% if post.typeform-url %}
           {% if post.typeform-url != 'closed' %}
-            Opened on: <time>{{ post.date | date: date_format }}</time>
+            <strong class="txt-success">Booking available</strong> from <time>{{ post.date | date: date_format }}</time>
           {% else %}
             <strong class="txt-danger">Fully booked</strong>
           {% endif %}
