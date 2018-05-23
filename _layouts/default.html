@@ -35,18 +35,35 @@ layout: compress
     <main class="site__content">
       <section class="blog">
         <div class="container">
-
-          <h2 class="post-list-header">Book Online - Upcoming Sessions</h2>
+          <div class="row">
+            <div class="col-12">
+              <h1 class="post-list-header">Pricing <small>(per child)</small></h1>
+              <hr />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 center">
+              <h2>Per day</h2>
+              <p><strong>£45</strong></p>
+            </div>
+            <div class="col-6 center">
+              <h2>Per week</h2>
+              <p><strike>£225</strike> <strong>£180</strong> with "full week" discount</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <h1 class="post-list-header">Book Online - Upcoming Sessions</h1>
+          <hr />
           <div class="post-list">
-
             {% for post in site.categories.camps %}
               {% include card.html %}
             {% endfor %}
-
             <!-- {% for post in site.categories.blog %}
               {% include card.html %}
             {% endfor %} -->
-
             <!-- {% include pagination.html %} -->
           </div>
         </div>
