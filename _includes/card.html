@@ -1,6 +1,6 @@
 {% if post.typeform-url %}
   {% if post.typeform-url == 'closed' %}
-    <a class="post-card" href="mailto:hello@holicamp.org.uk" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <a class="post-card" href="mailto:{{ site.email }}" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
   {% elsif post.typeform-url == 'full' %}
     <a class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
   {% else %}

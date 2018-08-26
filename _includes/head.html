@@ -6,13 +6,18 @@
   {% seo %}
 
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/apple-touch-icon.png?v=qA3OXqyw77' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{'/assets/img/favicon-32x32.png?v=qA3OXqyw77' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{'/assets/img/favicon-16x16.png?v=qA3OXqyw77' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32x32.png?v=qA3OXqyw77' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicon-16x16.png?v=qA3OXqyw77' | relative_url }}">
   <!--[if IE]><link rel="shortcut icon" href="/assets/img/favicon.ico?v=qA3OXqyw77"><![endif]-->
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico?v=qA3OXqyw77' | relative_url }}">
-  <meta name="apple-mobile-web-app-title" content="Holicamp">
-  <meta name="application-name" content="Holicamp">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+  <meta name="application-name" content="{{ site.title }}">
   <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:image" content="{{ '/assets/img/posts/ashton-bingham-113943_sm.jpg' | relative_url }}" />
 
   {% if site.google_tag_manager %}
 
