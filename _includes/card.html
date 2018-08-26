@@ -25,10 +25,13 @@
       {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
       <span class="post-card__meta">
         {% if post.typeform-url %}
-          {% if post.typeform-url != 'closed' %}
-            <strong class="txt-success">Booking available</strong> from <time>{{ post.date | date: date_format }}</time>
-          {% else %}
+          {% if post.typeform-url == 'full' %}
             <strong class="txt-danger">Fully booked</strong>
+          {% elsif post.typeform-url == 'closed' %}
+            <strong class="txt-danger">Booking closed</strong> few seats available:
+            get in touch at <a href="mailto:hello@holicamp.org.uk">hello@holicamp.org.uk</a> for more info
+          {% else %}
+            <strong class="txt-success">Booking available</strong> from <time>{{ post.date | date: date_format }}</time>
           {% endif %}
         {% else %}
           <time>{{ post.date | date: date_format }}</time>
