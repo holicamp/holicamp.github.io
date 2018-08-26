@@ -34,7 +34,7 @@
           {% if post.typeform-url == 'full' %}
             <strong class="txt-danger">Fully booked</strong>
           {% elsif post.typeform-url == 'closed' %}
-            <strong class="txt-danger">Booking closed</strong> few seats available: get in touch at <span class="link">hello@holicamp.org.uk</span> for more info
+            <strong class="txt-danger">Booking closed</strong> few seats available: get in touch at <span class="link">hello [at] holicamp [dot] org [dot] uk</span> for more info
           {% else %}
             <strong class="txt-success">Booking available</strong> from <time>{{ post.date | date: date_format }}</time>
           {% endif %}
