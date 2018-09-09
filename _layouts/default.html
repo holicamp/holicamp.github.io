@@ -21,10 +21,17 @@ layout: compress
     <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/ashton-bingham-113943_lg.jpg">
       <div class="hero__wrap">
         <h1 class="hero__title">Holicamp</h1>
-        <p class="hero__meta">Our mission is to offer various holiday camps in London, including activities which have rich and clear educational goals, seriously supervised with enthusiasm!</p>
+        <p class="hero__meta">
+          We are on a mission to offer various holiday camps in London for kids from 6 years old
+          (primary school) up to 14 years old (secondary school).<br />
+          <br />
+          Our camps include activities which have rich and clear educational goals, seriously
+          supervised with great enthusiasm! 😀
+        </p>
         <hr />
         <p class="hero__meta">
           You want to be informed regarding our upcoming sessions?<br />
+          Our team speaks both 🇬🇧 English and 🇫🇷 French!<br />
           Simply get in touch with us and we'll make sure to keep you in the loop!<br />
           <br />
           <a href="{{ '/contact' | relative_url }}" class="btn">get in touch</a>
@@ -33,38 +40,75 @@ layout: compress
     </div>
 
     <main class="site__content">
-      <section class="blog">
+      <section>
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h1 class="post-list-header">Pricing <small>(per child)</small></h1>
-              <hr />
+              <h1 class="post-list-header">Pricing</h1>
+              <p class="center">Our prices are per child and whatever her or his age.</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-6 center">
+            <div class="col-5 center">
               <h2>Per day</h2>
               <p><strong>£45</strong></p>
             </div>
-            <div class="col-6 center">
-              <h2>Per week</h2>
-              <p><strike>£225</strike> <strong>£180</strong> with "full week" discount</p>
+            <div class="col-2 center">
+              <div class="separator-vertical"></div>
+            </div>
+            <div class="col-5 center">
+              <h2>Per week (5 days)</h2>
+              <p>
+                <strike>£225</strike> <strong>£180</strong> with "full week" discount<exp>*</exp>
+              </p>
+              <p class="txt-light">
+                <small><exp>*</exp> We apply a "full week" discount policy only.<br />Unfortunately no family discount is available yet.</small>
+              </p>
             </div>
           </div>
         </div>
       </section>
       <section class="blog">
         <div class="container">
-          <h1 class="post-list-header">Book Online - Upcoming Sessions</h1>
-          <hr />
+          <h1 class="post-list-header">Online booking - 2018/2019 School Year</h1>
+          <p class="center">
+            <strong>🎉 NEW</strong> We now offer camps for both <u>primary</u> and <u>secondary</u> school ages.<br />
+            <strong class="txt-success">Primary</strong> is from 6 to 10 years old.<br />
+            <strong>Secondary</strong> is from 11 to 15 years old.
+          </p>
+          <h2 class="post-list-header">📅&nbsp;&nbsp;Autumn half-term 2018</h2>
           <div class="post-list">
-            {% for post in site.categories.camps %}
+            {% for post in site.categories.autumn_ht_2018 %}
               {% include card.html %}
             {% endfor %}
-            <!-- {% for post in site.categories.blog %}
+          </div>
+          <hr />
+          <h2 class="post-list-header">📅&nbsp;&nbsp;Spring half-term 2019</h2>
+          <div class="post-list">
+            {% for post in site.categories.spring_ht_2019 %}
               {% include card.html %}
-            {% endfor %} -->
-            <!-- {% include pagination.html %} -->
+            {% endfor %}
+          </div>
+          <hr />
+          <h2 class="post-list-header">📅&nbsp;&nbsp;Easter 2019</h2>
+          <div class="post-list">
+            {% for post in site.categories.easter_2019 %}
+              {% include card.html %}
+            {% endfor %}
+          </div>
+          <hr />
+          <h2 class="post-list-header">📅&nbsp;&nbsp;Summer half-term 2019</h2>
+          <div class="post-list">
+            {% for post in site.categories.summer_ht_2019 %}
+              {% include card.html %}
+            {% endfor %}
+          </div>
+          <hr />
+          <h2 class="post-list-header">📅&nbsp;&nbsp;Summer 2019</h2>
+          <div class="post-list">
+            {% for post in site.categories.summer_2019 %}
+              {% include card.html %}
+            {% endfor %}
           </div>
         </div>
       </section>

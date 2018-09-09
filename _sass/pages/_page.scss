@@ -50,7 +50,7 @@
 
 .hero__wrap {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -72,6 +72,9 @@
       font-size: 2.625em;
       line-height: 3.125rem;
     }
+  }
+  .hero__meta {
+    font-size: 1.2em;
   }
 }
 
@@ -99,4 +102,12 @@
   display: flex;
   flex-wrap: wrap;
   flex: 1 0 auto;
+}
+
+.separator-vertical {
+  width: 1px;
+  background: $border;
+  height: 110px;
+  position: relative;
+  margin: 10px auto;
 }
