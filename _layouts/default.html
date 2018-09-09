@@ -26,15 +26,14 @@ layout: compress
           (primary school) up to 14 years old (secondary school).<br />
           <br />
           Our camps include activities which have rich and clear educational goals, seriously
-          supervised with great enthusiasm! 😀
+          supervised with great enthusiasm! 😀<br />
+          Our team speaks both 🇬🇧 English and 🇫🇷 French!
         </p>
         <hr />
         <p class="hero__meta">
-          You want to be informed regarding our upcoming sessions?<br />
-          Our team speaks both 🇬🇧 English and 🇫🇷 French!<br />
-          Simply get in touch with us and we'll make sure to keep you in the loop!<br />
+          <br />You want to be aware about our upcoming camps? Simply subscribe to our newsletter and we'll make sure to always keep you in the loop!<br />
           <br />
-          <a href="{{ '/contact' | relative_url }}" class="btn">get in touch</a>
+          <button class="btn" id="subscribe-newsletter">subscribe</button>
         </p>
       </div>
     </div>
@@ -115,6 +114,16 @@ layout: compress
     </main>
 
     {% include footer.html %}
+
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+      function showMailingPopUp() {
+        window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"8bb9cec54e0b933e8f01a0b7a","lid":"5365fd5159","uniqueMethods":true}) });
+        document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+      };
+      document.getElementById("subscribe-newsletter").onclick = function() { showMailingPopUp(); };
+    </script>
+
 
   </body>
 

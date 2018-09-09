@@ -14,13 +14,9 @@ body {
 
 //sticky footer
 .site {
-  display: flex;
+  overflow: auto;
+  display: block;
   min-height: 100vh;
-  flex-direction: column;
-}
-
-.site__content {
-  flex: 1;
 }
 
 // responsive images

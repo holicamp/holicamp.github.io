@@ -7,13 +7,14 @@ permalink: /legal/
 _“Holicamp” provide holiday play-schemes for children in London. It is managed by the director of the company, Michaël Blain._
 
 **Holicamp Ltd**  
-Suite 146 4 fortess Road  
-NW5 2ES London  
+56A Athlone street  
+NW5 4LL  
+London  
 United Kingdom
 
 ### 1 - Admissions
 
-These camps are open for kids between 6 to 11 years old. This is an online booking system based on first come, first served. The online booking system contains the details of the camps offered from time to time and any relevant joining requirements.
+These camps are open for kids between 6 to 15 years old. This is an online booking system based on first come, first served. The online booking system contains the details of the camps offered from time to time and any relevant joining requirements.
 
 ### 2 - Online booking system
 
