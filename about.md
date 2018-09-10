@@ -74,6 +74,9 @@ London NW5 4NU
 
 # What is the program?
 
+Ever morning we will collect the children at 9.00am at the collection point and families will be able
+to pick them up at 4.00pm.
+
 Every week our program is different and can be adjusted depending on various things like the weather, 
 the children, the attendance for example ; but here is a downloadable version of a typical program for
 primary school children.
