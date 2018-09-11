@@ -36,6 +36,19 @@ Speaking both English and French, we'll make sure your children will enjoy every
 
 ----
 
+# What is the program?
+
+Ever morning we will collect the children at 9.00am at the collection point and families will be able
+to pick them up at 4.00pm.
+
+Every week our program is different and can be adjusted depending on various things like the weather, 
+the children, the attendance for example ; but here is a downloadable version of a typical program for
+primary school children.
+
+<a href="https://goo.gl/wKrzKQ" class="btn" target="_blank">Download</a>
+
+----
+
 # Where is this happening?
 
 ## Hamsptead Heath 🌤 🌳
@@ -72,19 +85,6 @@ London NW5 4NU
 
 ----
 
-# What is the program?
-
-Ever morning we will collect the children at 9.00am at the collection point and families will be able
-to pick them up at 4.00pm.
-
-Every week our program is different and can be adjusted depending on various things like the weather, 
-the children, the attendance for example ; but here is a downloadable version of a typical program for
-primary school children.
-
-<a href="https://goo.gl/wKrzKQ" class="btn" target="_blank">Download</a>
-
-----
-
 # What about lunch breaks? 🥪 🍎 🥤
 
 Every day we'll have a half an hour lunch break between 12am - 12:30pm but unfortunately we don't
@@ -110,6 +110,5 @@ We also apply a "first come, first served" policy, so be quick!
 **Michaël Blain**  
 **CEO, Holicamp Ltd**  
 56A Athlone street  
-NW5 4LL  
-London  
+NW5 4LL London  
 United Kingdom
