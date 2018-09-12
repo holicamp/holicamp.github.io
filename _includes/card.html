@@ -47,7 +47,7 @@
           {% elsif post.typeform-url == 'soon' %}
             <strong class="txt-success">Coming soon...</strong>
           {% else %}
-            <strong class="txt-success">Booking available</strong> from <time>{{ post.date | date: date_format }}</time>
+            <strong class="txt-success">Booking available</strong>
           {% endif %}
         {% else %}
           <time>{{ post.date | date: date_format }}</time>
