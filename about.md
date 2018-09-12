@@ -38,20 +38,23 @@ Speaking both English and French, we'll make sure your children will enjoy every
 
 # What is the program?
 
-Ever morning we will collect the children at 9.00am at the collection point and families will be able
-to pick them up at 4.00pm.
+Ever morning we will collect the children at 10:00am at the collection point and families will be able
+to pick them up at 3:15pm.
 
 Every week our program is different and can be adjusted depending on various things like the weather, 
 the children, the attendance for example ; but here is a downloadable version of a typical program for
-primary school children.
+primary school children, take a peek!
 
-<a href="https://goo.gl/wKrzKQ" class="btn" target="_blank">Download</a>
+<a href="https://goo.gl/kh5hAL" class="btn" target="_blank">Holicamp Primary - Program Sample</a>
+
+For secondary school children, our camps are a bit more organised around sport activities like frisbee,
+baseball, dodgeball, football or tennis while keeping core activities like yoga, fitness or orienteering too.
 
 ----
 
 # Where is this happening?
 
-## Hamsptead Heath 🌤 🌳
+## Hamsptead Heath 🌤 🌳 🌲
 
 If the weather allows it, we prefer to set our camp outdoors, in Hamsptead Heath on Parliament Hill.
 
