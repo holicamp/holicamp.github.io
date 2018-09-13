@@ -138,7 +138,11 @@ going to be responsible of this.
 
 Simply visit [our booking page](/#booking) and select which week/camp you'd like to book for your children.
 We'll go through all the nitty-gritty when completing the booking we are clear about who is coming,
-the full week, only some days during the week and so on. You can book up to 4 children per booking.
+the full week, only some days during the week and so on.
+
+You can book up to 4 children per booking. We apply a "first come, first served" policy and every camp
+is limited in terms of the number of participants based on our staff so we can respect health and
+safety regulations.
 
 In order to ensure the best level of quality and to ensure health and safety to all our participants, we have decided to limit the number of seats for each week.
 We also apply a "first come, first served" policy, so be quick!
@@ -155,7 +159,7 @@ We also apply a "first come, first served" policy, so be quick!
 >
 > We hope you appreciate our approach and we will do everything we can so your little ones enjoy their Holicamp experience!
 
-**Michaël Blain**, **CEO Holicamp Ltd**  
-56A Athlone street  
-NW5 4LL London  
+**Michaël Blain**, **CEO Holicamp Ltd**
+56A Athlone street
+NW5 4LL London
 United Kingdom
