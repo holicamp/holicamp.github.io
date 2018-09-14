@@ -8,8 +8,7 @@ $( document ).ready( function() {
     toggleMobileNav();
     ShowHideNav();
     formCheck();
-
-} );
+});
 
 // Close modal if ESC is pressed
 $( document ).keyup( function( e ) {
@@ -28,16 +27,14 @@ $( window ).resize( function() {
 
 function toggleMobileNav() {
     $( ".header__toggle" ).click( function() {
-
         if ( $( ".header__links" ).hasClass( "js--open" ) ) {
             hideMobileNav();
         } else {
             openMobileNav();
         }
-    } );
+    });
 
     $( "body" ).on( "click", function( e ) {
-
       if ( e.target.classList.contains( "header__overlay" ) ) {
         hideMobileNav();
       } else {
@@ -84,6 +81,9 @@ function hideMobileNav() {
         }
     } );
 }
+
+// Also support hash links for mobile nav so we hideMobileNav() upon click
+$("a.header__link[href*='#']").click(hideMobileNav);
 
 /*-------------------------------------------------------------------------*/
 /* SHOW/SCROLL NAVIGATION */
