@@ -133,30 +133,39 @@ gulp.task('img', function() {
       // For all the images in the folder
       '*': [{
         width: 230,
-        rename: {suffix: '_placehold'},
+        format: 'jpeg',
+        rename: {suffix: '_placehold', extname: '.jpg' },
       }, {
         // thubmnail
         width: 535,
-        rename: { suffix: '_thumb' },
+        format: 'jpeg',
+        rename: { suffix: '_thumb', extname: '.jpg' },
       }, {
         // thumbnail @2x
         width: 535 * 2,
-        rename: { suffix: '_thumb@2x' },
+        format: 'jpeg',
+        rename: { suffix: '_thumb@2x', extname: '.jpg' },
       }, {
         width: 575,
-        rename: { suffix: '_xs'}
+        format: 'jpeg',
+        rename: { suffix: '_xs', extname: '.jpg' }
       }, {
         width: 767,
-        rename: {suffix: '_sm'}
+        format: 'jpeg',
+        rename: {suffix: '_sm', extname: '.jpg' }
       }, {
         width: 991,
-        rename: { suffix: '_md' }
+        format: 'jpeg',
+        rename: { suffix: '_md', extname: '.jpg' }
       }, {
         width: 1999,
-        rename: { suffix: '_lg' }
+        format: 'jpeg',
+        rename: { suffix: '_lg', extname: '.jpg' }
       }, {
         // max-width hero
         width: 1920,
+        format: 'jpeg',
+        rename: { extname: '.jpg' }
       }],
     }, {
       quality: 70,

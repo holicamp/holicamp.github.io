@@ -54,10 +54,12 @@ Every week our program is different and can be adjusted depending on various thi
 the children, the attendance for example ; but here is a downloadable version of a typical program for
 primary school children, take a peek!
 
-<a href="https://goo.gl/kh5hAL" class="btn" target="_blank">Holicamp Primary - Program Sample</a>
+<a href="https://goo.gl/kh5hAL" class="btn btn-small" target="_blank">Holicamp Primary - Program Sample</a>
 
 For secondary school children, our camps are a bit more organised around sport activities like frisbee,
 baseball, dodgeball, football or tennis while keeping core activities like yoga, fitness or orienteering too.
+
+<a href="https://goo.gl/kh5hAL" class="btn btn-small btn-success" target="_blank">Holicamp Secondary - Program Sample</a>
 
 &nbsp;
 
@@ -67,21 +69,25 @@ baseball, dodgeball, football or tennis while keeping core activities like yoga,
 
 # Where is this happening?
 
-## Outdoors! Hamsptead Heath 🌤 🌳 🌲
+## Outdoors! 🌤 🌳 🌲
+## Hamsptead Heath 
 
 If the weather allows it, we prefer to set our camp outdoors, in Hamsptead Heath on Parliament Hill.
 
 Our meeting point is just behind the Parliament Hill Lido swimming pool.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.626200759412!2d-0.15380468392380175!3d51.55675297964324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMzJzI0LjMiTiAwwrAwOScwNS44Ilc!5e0!3m2!1sen!2suk!4v1536566287800" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.626200759412!2d-0.15380468392380175!3d51.55675297964324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMzJzI0LjMiTiAwwrAwOScwNS44Ilc!5e0!3m2!1sen!2suk!4v1536566287800" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br />
 
-Parliament Hill Lido
-Heath Lodge, Hampstead
-London NW5 1NA
+**Address**  
+Parliament Hill Lido  
+Heath Lodge, Hampstead  
+London NW5 1NA  
+<a href="https://www.google.com/maps?saddr=My+Location&daddr=51.556786,-0.1538797" target="_blank">Directions</a>
 
-<a href="https://www.google.com/maps?saddr=My+Location&daddr=51.556786,-0.1538797" class="btn" target="_blank">Directions</a>
+&nbsp;
 
-## What if it’s raining cats and dogs? The Dome 🌧 🏫 🐈🐩
+## What if it’s raining cats and dogs? 🌧 🏫 🐈🐩
+## The Dome
 
 In case of rain, we always have a backup plan and always book in advance
 [The Dome](https://www.mylocalpitch.com/london/venue/the-dome), a sports complex offering good facilities
@@ -90,14 +96,14 @@ so we can still organise our activities indoors.
 If the meeting point changes from outdoors to indoors during the day because of the weather, our staff
 will make sure to let you know in advance so you are sure where to pick-up your children.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d620.2371994505096!2d-0.1509338443844368!3d51.55083788786304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761afa3910f193%3A0x86d1c09788d78583!2sThe+Dome!5e0!3m2!1sen!2suk!4v1536566354898" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d620.2371994505096!2d-0.1509338443844368!3d51.55083788786304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761afa3910f193%3A0x86d1c09788d78583!2sThe+Dome!5e0!3m2!1sen!2suk!4v1536566354898" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br />
 
-The Dome
-170 Weedington Rd
-Belsize Park
-London NW5 4NU
-
-<a href="https://www.google.com/maps?saddr=My+Location&daddr=51.5506752,-0.1508328" class="btn" target="_blank">Directions</a>
+**Address**  
+The Dome  
+170 Weedington Rd  
+Belsize Park  
+London NW5 4NU  
+<a href="https://www.google.com/maps?saddr=My+Location&daddr=51.5506752,-0.1508328" target="_blank">Directions</a>
 
 &nbsp;
 
@@ -159,7 +165,7 @@ We also apply a "first come, first served" policy, so be quick!
 >
 > We hope you appreciate our approach and we will do everything we can so your little ones enjoy their Holicamp experience!
 
-**Michaël Blain**, **CEO Holicamp Ltd**
-56A Athlone street
-NW5 4LL London
-United Kingdom
+**Michaël Blain**, **CEO Holicamp Ltd**  
+56A Athlone street  
+NW5 4LL London  
+United Kingdom  

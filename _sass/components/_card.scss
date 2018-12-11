@@ -39,6 +39,9 @@
             margin-right: 0;
         }
     }
+    &.primary .post-card__inner {
+        background-color: $primary-very-light;
+    }
 }
 
 .post-card__thumb {
@@ -69,6 +72,7 @@
 .post-card__inner {
     padding: 1.875rem 1.25rem 0.625rem;
     color: $grey;
+    background-color: $light-bg-color;
 }
 
 .post-card__header {
