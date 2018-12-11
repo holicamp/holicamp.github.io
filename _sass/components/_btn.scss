@@ -32,6 +32,20 @@ input[type="button"] {
     background-color: lighten($button-dark, 14%);
     outline: 0;
   }
+
+  &.btn-small {
+    padding: 9px 15px;
+    letter-spacing: 0;
+  }
+
+  &.btn-success {
+    background-color: $primary;
+    &:hover,
+    :focus,
+    :active {
+      background-color: lighten($primary, 14%);
+    }
+  }
 }
 
 .btn + .btn {

@@ -83,7 +83,11 @@ function hideMobileNav() {
 }
 
 // Also support hash links for mobile nav so we hideMobileNav() upon click
-$("a.header__link[href*='#']").click(hideMobileNav);
+$("a.header__link[href*='#']").click(function () {
+    if ( $( ".header__links" ).hasClass( "js--open" ) ) {
+        hideMobileNav();
+    }
+});
 
 /*-------------------------------------------------------------------------*/
 /* SHOW/SCROLL NAVIGATION */

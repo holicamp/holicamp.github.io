@@ -3,128 +3,141 @@ layout: compress
 ---
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body class="site">
+    <body class="site">
 
-    {% if site.google_tag_manager %}
+        {% if site.google_tag_manager %}
 
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
 
-    {% endif %}
+        {% endif %}
 
-    {% include header.html %}
+        {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/ashton-bingham-113943_lg.jpg">
-      <div class="hero__wrap">
-        <h1 class="hero__title">Holiday play-schemes for children in London</h1>
-        <p class="hero__meta">
-          We are on a mission to offer various holiday camps in London for kids from 6 years old
-          (primary school) up to 14 years old (secondary school).<br />
-          <br />
-          Our camps include activities which have rich and clear educational goals, seriously
-          supervised with great enthusiasm! 😀<br />
-          Our team speaks both 🇬🇧 English and 🇫🇷 French!
-        </p>
-        <hr />
-        <p class="hero__meta">
-          <br />You want to be aware about our upcoming camps? Simply subscribe to our newsletter and we'll make sure to always keep you in the loop!<br />
-          <br />
-          <button class="btn" id="subscribe-newsletter">subscribe</button>
-        </p>
-      </div>
-    </div>
-
-    <main class="site__content">
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="post-list-header">Pricing</h1>
-              <p class="center">Our prices are per child and whatever her or his age.</p>
+        <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/ashton-bingham-113943_lg.jpg">
+            <div class="hero__wrap">
+                <h1 class="hero__title">Holiday play-schemes for children in London</h1>
+                <p class="hero__meta">
+                    We are on a mission to offer various holiday camps in London for kids from 6 years old
+                    (primary school) up to 14 years old (secondary school).<br />
+                    <br />
+                    Our camps include activities which have rich and clear educational goals, seriously
+                    supervised with great enthusiasm! 😀<br />
+                    Our team speaks both 🇬🇧 English and 🇫🇷 French!
+                </p>
+                <hr />
+                <p class="hero__meta">
+                    <br />You want to be aware about our upcoming camps? Simply subscribe to our newsletter and we'll make sure to always keep you in the loop!<br />
+                    <br />
+                    <button class="btn" id="subscribe-newsletter">subscribe</button>
+                </p>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-5 center">
-              <h2>Per day</h2>
-              <p><strong>£45</strong></p>
-            </div>
-            <div class="col-2 center hidden-sm">
-              <div class="separator-vertical"></div>
-            </div>
-            <div class="col-5 center">
-              <h2>Per week (5 days)</h2>
-              <p>
-                <strike>£225</strike> <strong>£180</strong> with "full week" discount<exp>*</exp>
-              </p>
-              <p class="txt-light">
-                <small><exp>*</exp> We apply a "full week" discount policy only.<br />Unfortunately no family discount is available yet.</small>
-              </p>
-            </div>
-          </div>
         </div>
-      </section>
-      <section class="blog">
-        <div class="container">
-          <h1 id="booking" class="post-list-header">Online booking - 2018/2019 School Year</h1>
-          <p class="center">
-            <strong>🎉 NEW</strong> We now offer camps for both <u>primary</u> and <u>secondary</u> school ages.<br />
-            <strong class="txt-success">Primary</strong> is from 6 to 11 years old.<br />
-            <strong>Secondary</strong> is from 11 to 15 years old.
-          </p>
-          <h2 class="post-list-header">📅&nbsp;&nbsp;Autumn half-term 2018</h2>
-          <div class="post-list">
-            {% for post in site.categories.autumn_ht_2018 %}
-              {% include card.html %}
-            {% endfor %}
-          </div>
-          <hr />
-          <h2 class="post-list-header">📅&nbsp;&nbsp;Spring half-term 2019</h2>
-          <div class="post-list">
-            {% for post in site.categories.spring_ht_2019 %}
-              {% include card.html %}
-            {% endfor %}
-          </div>
-          <hr />
-          <h2 class="post-list-header">📅&nbsp;&nbsp;Easter 2019</h2>
-          <div class="post-list">
-            {% for post in site.categories.easter_2019 %}
-              {% include card.html %}
-            {% endfor %}
-          </div>
-          <hr />
-          <h2 class="post-list-header">📅&nbsp;&nbsp;Summer half-term 2019</h2>
-          <div class="post-list">
-            {% for post in site.categories.summer_ht_2019 %}
-              {% include card.html %}
-            {% endfor %}
-          </div>
-          <hr />
-          <h2 class="post-list-header">📅&nbsp;&nbsp;Summer 2019</h2>
-          <div class="post-list">
-            {% for post in site.categories.summer_2019 %}
-              {% include card.html %}
-            {% endfor %}
-          </div>
-        </div>
-      </section>
-    </main>
 
-    {% include footer.html %}
+        <main class="site__content">
 
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-    <script type="text/javascript">
-      function showMailingPopUp() {
-        window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"8bb9cec54e0b933e8f01a0b7a","lid":"5365fd5159","uniqueMethods":true}) });
-        document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-      };
-      document.getElementById("subscribe-newsletter").onclick = function() { showMailingPopUp(); };
-    </script>
+            {% include pricing.html %}
+
+            <section class="blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 id="booking" class="post-list-header">Online booking - 2018/2019 School Year</h1>
+                            <p class="center">
+                                <strong>🎉 NEW</strong> We now offer camps for both <u>primary</u> and <u>secondary</u> school ages.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 center">
+                            <p>
+                                <strong class="txt-success">Primary</strong> is from 6 to 11 years old.
+                            </p>
+                            <p>
+                                Every week our program is different and can be adjusted depending on various things like the weather, the children, the attendance for example ; but here is a downloadable version of a typical program for primary school children, take a peek!<br />
+                                <br />
+                                <a href="https://goo.gl/kh5hAL" class="btn btn-small btn-success" target="_blank">Holicamp Primary - Program Sample</a>
+                            </p>
+                        </div>
+                        <div class="col-6 center">
+                            <p>
+                                <strong>Secondary</strong> is from 11 to 15 years old.
+                            </p>
+                            <p>
+                                For secondary school children, our camps are a bit more organised around sport activities like frisbee, baseball, dodgeball, football or tennis while keeping core activities like yoga, fitness or orienteering too.<br />
+                                <br />
+                                <a href="https://goo.gl/kh5hAL" class="btn btn-small" target="_blank">Holicamp Secondary - Program Sample</a>
+                            </p>
+                        </div>
+                        <div class="col-12 center">
+                            <p>Find out more information about our programs from <a href="{{ '/about#what-is-the-program' | relative_url }}" itemprop="url">our about page</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <h2 class="post-list-header">📅&nbsp;&nbsp;Spring half-term 2019</h2>
+                    <div class="post-list">
+                        {% for post in site.categories.spring_ht_2019 %}
+                            {% include card.html %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+            <section class="blog">
+                <div class="container">
+                    <h2 class="post-list-header">📅&nbsp;&nbsp;Easter 2019</h2>
+                    <div class="post-list">
+                        {% for post in site.categories.easter_2019 %}
+                            {% include card.html %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <h2 class="post-list-header">📅&nbsp;&nbsp;Summer half-term 2019</h2>
+                    <div class="post-list">
+                        {% for post in site.categories.summer_ht_2019 %}
+                            {% include card.html %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+            <section class="blog">
+                <div class="container">
+                    <h2 class="post-list-header">📅&nbsp;&nbsp;Summer 2019</h2>
+                    <div class="post-list">
+                        {% for post in site.categories.summer_2019 %}
+                            {% include card.html %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        {% include footer.html %}
+
+        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+        <script type="text/javascript">
+            function showMailingPopUp() {
+                window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"8bb9cec54e0b933e8f01a0b7a","lid":"5365fd5159","uniqueMethods":true}) });
+                document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+            };
+            document.getElementById("subscribe-newsletter").onclick = function() { showMailingPopUp(); };
+        </script>
 
 
-  </body>
+    </body>
 
 </html>
