@@ -67,7 +67,7 @@
                 <strong>Until:</strong> {{ post.end | strip_html | truncatewords: 20 }}
             </p>
         {% endif %}
-        {% if post.typeform-url and post.typeform-url != 'closed' %}
+        {% if post.typeform-url and post.typeform-url != 'closed' and post.typeform-url != 'soon' %}
             <div class="center">
                 <br /><span class="btn">
                     {% if post.typeform-url == 'full' %}
