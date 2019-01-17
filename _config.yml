@@ -10,7 +10,7 @@ prices:
     day: 45
     week:
       5: 180
-      4: 180
+      4: 160
   indoor:
     day: 50
     week:
