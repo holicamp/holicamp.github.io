@@ -9,15 +9,26 @@
         <div class="row">
             <div class="col-5 center">
                 <h2>Per day</h2>
-                <p><strong>£50</strong><br />from 10.00am until 3.15pm</p>
+                <p>
+                    Outdoor: <strong>£{{ site.prices.outdoor.day }}</strong><br />
+                    Indoor: <strong>£{{ site.prices.indoor.day }}</strong><br />
+                    <br />
+                    from 10.00am until 3.15pm
+                </p>
             </div>
             <div class="col-2 center hidden-sm">
                 <div class="separator-vertical"></div>
             </div>
             <div class="col-5 center">
-                <h2>Per week (5 days)</h2>
+                {% assign days = 5 %}
+                <h2>Per week ({{ days }} days)</h2>
                 <p>
-                    <strike>£250</strike> <strong>£195</strong> with "full week" discount<exp>*</exp>
+                    Outdoor: <strike>£{{ site.prices.outdoor.day | times: days }}</strike>
+                    <strong>£{{ site.prices.outdoor.week.[days] }}</strong><br />
+                    Indoor: <strike>£{{ site.prices.indoor.day | times: days }}</strike>
+                    <strong>£{{ site.prices.indoor.week.[days] }}</strong><br />
+                    <br />
+                    with "full week" discount<exp>*</exp>
                 </p>
                 <p class="txt-light">
                     <small><exp>*</exp> We apply a "full week" discount policy only.<br />Unfortunately no family discount is available yet.</small>
