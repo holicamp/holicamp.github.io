@@ -1,0 +1,11 @@
+---
+layout: post
+title: 2nd Week
+subtitle: Primary School Children
+start: Monday the 15th of July
+end: Friday the 19th of July
+featured-img: baseball
+categories: summer_2019
+typeform-url: https://holicamp.typeform.com/to/axeZyG
+camp-type: primary
+---
