@@ -191,3 +191,5 @@ gulp.task('serve', function() {
 });
 
 gulp.task('build', ['sass', 'js', 'jekyll-build', 'img']);
+
+gulp.task('build-fe', ['sass', 'js', 'img']);

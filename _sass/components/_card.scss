@@ -4,11 +4,14 @@
     width: 100%;
     min-height: 250px;
     border-radius: 4px;
-    background-color: $bg-color;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
     margin-bottom: 5.26316%;
     border-bottom: 0;
     transition: box-shadow .25s ease;
+    background-color: $light-bg-color;
+    &.primary {
+            background-color: $primary-very-light;
+    }
 
     &:hover,
     &:focus {
@@ -38,9 +41,6 @@
         &:nth-child(3n+3) {
             margin-right: 0;
         }
-    }
-    &.primary .post-card__inner {
-        background-color: $primary-very-light;
     }
 }
 
@@ -72,7 +72,6 @@
 .post-card__inner {
     padding: 1.875rem 1.25rem 0.625rem;
     color: $grey;
-    background-color: $light-bg-color;
 }
 
 .post-card__header {

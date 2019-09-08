@@ -90,11 +90,9 @@
 section.bg-alt {
     background-color: $light-bg-color;
     .post-list .post-card {
-        &.primary .post-card__inner {
+        background-color: $bg-color;
+        &.primary {
             background-color: $primary-very-light;
-        }
-        .post-card__inner {
-            background-color: $bg-color;
         }
     }
 }
