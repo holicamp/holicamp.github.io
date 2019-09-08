@@ -7,7 +7,7 @@ end: Friday the 25th of October
 days: 5
 featured-img: badminton-1
 categories: autumn_ht_2019
-typeform-url: soon
+typeform-url: https://holicamp.typeform.com/to/eSx1v6
 level: secondary
 type: outdoor
 ---
