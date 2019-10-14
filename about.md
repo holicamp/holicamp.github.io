@@ -6,11 +6,11 @@ permalink: /about/
 
 # Our approach
 
-Back in 2016, we wanted to be able to offer a play-scheme for children staying in London during school holidays.
-From the start we wanted it to be fun using various games and sport activities but also to define clear
-educational goals with high standards about the level of quality and professionalism of our services.
+Back in 2016, we wanted to be able to offer a play scheme for children staying in London during school holidays.
+Right from the start, we wanted it to be fun, using various games and sport activities but also to define clear
+educational goals while aiming for high standards for our services.
 
-This is how our small team at Holicamp, including myself, Mr Blain, PE teacher at CFBL (Collège français
+This is how, our small team at Holicamp, including myself, Mr Blain, PE teacher at CFBL (Collège français
 bilingue de Londres), have been working on putting together rich planning of activities for children
 from 6 to 15 years old. We wanted to make sure core values (like respect, teamwork, confidence...)
 were reflected in our activities while channelling everything through fun and well-being.
@@ -23,11 +23,11 @@ We hope you appreciate our approach and we will do everything we can so your lit
 
 &nbsp;
 
-# Nice to meet you! 👋
+# Hiya! 👋
 
-Our team is composed by selected professionals, working with children on a daily basis and passionate into delivering the best quality activities we can to your little ones.
+Our team is composed by selected professionals, working with children on a daily basis, animated by a real passion to deliver outstanding days out to your little ones.
 
-Speaking both 🇬🇧 English and 🇫🇷 French, we'll make sure your children will enjoy every single moment with us!
+Speaking both 🇬🇧 English and 🇫🇷 French, we'll make sure they enjoy every single moment with us!
 
 - **Michaël Blain** - Physical Education teacher at [CFBL](https://www.cfbl.org.uk/)
 - **Guillaume Hainault** - Pupil supervisor at [CFBL](https://www.cfbl.org.uk/) and certified animator
