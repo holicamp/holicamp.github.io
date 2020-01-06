@@ -7,7 +7,7 @@ end: Friday the 1st of November
 days: 5
 featured-img: tennis
 categories: autumn_ht_2019
-typeform-url: https://holicamp.typeform.com/to/H3h0yS
+typeform-url: closed
 level: primary
 type: outdoor
 ---

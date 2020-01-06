@@ -7,7 +7,7 @@ end: Friday the 1st of November
 days: 5
 featured-img: frisbee
 categories: autumn_ht_2019
-typeform-url: https://holicamp.typeform.com/to/i8v5Cb
+typeform-url: closed
 level: secondary
 type: outdoor
 ---

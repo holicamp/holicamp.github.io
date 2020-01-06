@@ -7,7 +7,7 @@ end: Friday the 25th of October
 days: 5
 featured-img: activity
 categories: autumn_ht_2019
-typeform-url: https://holicamp.typeform.com/to/G0twId
+typeform-url: closed
 level: primary
 type: outdoor
 ---

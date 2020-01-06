@@ -7,7 +7,7 @@ end: Friday the 28th of August
 days: 5
 featured-img: anna-earl
 categories: summer_2020
-typeform-url: soon
+typeform-url: https://holicamp.typeform.com/to/KxPiXT
 level: primary
 type: outdoor
 ---

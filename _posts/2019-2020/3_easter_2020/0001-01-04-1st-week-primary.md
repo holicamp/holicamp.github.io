@@ -7,7 +7,7 @@ end: Thursday the 9th of April
 days: 4
 featured-img: orienteering
 categories: easter_2020
-typeform-url: soon
+typeform-url: https://holicamp.typeform.com/to/JJ0NcC
 level: primary
 type: outdoor
 ---

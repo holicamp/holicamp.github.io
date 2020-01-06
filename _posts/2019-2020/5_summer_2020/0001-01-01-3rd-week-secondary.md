@@ -7,7 +7,7 @@ end: Friday the 28th of August
 days: 5
 featured-img: baseball
 categories: summer_2020
-typeform-url: soon
+typeform-url: https://holicamp.typeform.com/to/y7Rmfc
 level: secondary
 type: outdoor
 ---

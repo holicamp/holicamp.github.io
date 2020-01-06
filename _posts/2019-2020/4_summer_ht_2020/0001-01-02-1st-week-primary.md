@@ -7,7 +7,7 @@ end: Friday the 29th of May
 days: 4
 featured-img: piron-guillaume
 categories: summer_ht_2020
-typeform-url: soon
+typeform-url: https://holicamp.typeform.com/to/nuEZPr
 level: primary
 type: outdoor
 ---

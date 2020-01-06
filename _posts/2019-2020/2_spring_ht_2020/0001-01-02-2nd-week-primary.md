@@ -7,7 +7,7 @@ end: Friday the 28th of February
 days: 5
 featured-img: anna-samoylova-535880
 categories: spring_ht_2020
-typeform-url: soon
+typeform-url: https://holicamp.typeform.com/to/rm8SNy
 level: primary
 type: indoor
 ---

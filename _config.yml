@@ -14,7 +14,7 @@ prices:
   indoor:
     day: 50
     week:
-      5: 225
+      5: 195
       4: 175
 # twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
 # github_username:  janczizikow # replace with your_github_username or comment to remove link from footer
