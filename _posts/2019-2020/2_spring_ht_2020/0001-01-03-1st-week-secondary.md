@@ -7,7 +7,7 @@ end: Friday the 21st of February
 days: 5
 featured-img: football-2
 categories: spring_ht_2020
-typeform-url: https://holicamp.typeform.com/to/FRIpqA
+typeform-url: full
 level: secondary
 type: indoor
 ---
