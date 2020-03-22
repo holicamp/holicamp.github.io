@@ -7,7 +7,7 @@ end: Friday the 17th of April
 days: 4
 featured-img: baseball-2
 categories: easter_2020
-typeform-url: https://holicamp.typeform.com/to/mePCqH
+typeform-url: closed
 level: secondary
 type: outdoor
 ---
