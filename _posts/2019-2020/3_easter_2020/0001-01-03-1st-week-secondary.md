@@ -7,7 +7,7 @@ end: Thursday the 9th of April
 days: 4
 featured-img: dodgeball
 categories: easter_2020
-typeform-url: https://holicamp.typeform.com/to/UQWkrD
+typeform-url: closed
 level: secondary
 type: outdoor
 ---
