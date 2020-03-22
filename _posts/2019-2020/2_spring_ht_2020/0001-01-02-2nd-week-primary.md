@@ -7,7 +7,7 @@ end: Friday the 28th of February
 days: 5
 featured-img: anna-samoylova-535880
 categories: spring_ht_2020
-typeform-url: full
+typeform-url: closed
 level: primary
 type: indoor
 ---
