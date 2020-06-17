@@ -7,7 +7,7 @@ end: Friday the 17th of July
 days: 5
 featured-img: caroline-chisholm
 categories: summer_2020
-typeform-url: https://holicamp.typeform.com/to/uV324u
+typeform-url: closed
 level: primary
 type: outdoor
 ---
