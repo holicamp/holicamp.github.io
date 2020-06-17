@@ -7,7 +7,7 @@ end: Friday the 10th of July
 days: 5
 featured-img: alaric-sim
 categories: summer_2020
-typeform-url: https://holicamp.typeform.com/to/xGJyKl
+typeform-url: closed
 level: primary
 type: outdoor
 ---
