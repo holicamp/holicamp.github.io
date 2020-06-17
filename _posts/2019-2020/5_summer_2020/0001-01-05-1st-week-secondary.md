@@ -7,7 +7,7 @@ end: Friday the 10th of July
 days: 5
 featured-img: chang-duong
 categories: summer_2020
-typeform-url: https://holicamp.typeform.com/to/klmYEH
+typeform-url: closed
 level: secondary
 type: outdoor
 ---
