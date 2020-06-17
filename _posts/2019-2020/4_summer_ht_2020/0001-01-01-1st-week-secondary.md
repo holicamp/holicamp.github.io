@@ -7,7 +7,7 @@ end: Friday the 29th of May
 days: 4
 featured-img: basketball
 categories: summer_ht_2020
-typeform-url: https://holicamp.typeform.com/to/OtNWOd
+typeform-url: closed
 level: secondary
 type: outdoor
 ---
