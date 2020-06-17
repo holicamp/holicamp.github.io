@@ -7,7 +7,7 @@ end: Friday the 17th of July
 days: 5
 featured-img: baylee-gramling
 categories: summer_2020
-typeform-url: https://holicamp.typeform.com/to/KLRkdM
+typeform-url: closed
 level: secondary
 type: outdoor
 ---
