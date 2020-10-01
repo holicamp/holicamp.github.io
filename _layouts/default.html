@@ -25,52 +25,26 @@ layout: compress
                     We are on a mission to offer various holiday camps in London for kids from 6 years old
                     (primary school) up to 14 years old (secondary school).<br />
                     <br />
-                    Our camps include activities which have rich and clear educational goals, seriously
-                    supervised with great enthusiasm! 😀<br />
+                    Our camps include both indoors and outdoors activities which have rich and clear educational goals, seriously
+                    supervised with great enthusiasm!<br />
+                    <br />
                     Our team speaks both 🇬🇧 English and 🇫🇷 French!
                 </p>
                 <hr />
                 <p class="hero__meta">
-                    <br />You want to be aware about our upcoming camps? Simply subscribe to our newsletter and we'll make sure to always keep you in the loop!<br />
                     <br />
-                    <button class="btn" id="subscribe-newsletter">
-                        <i class="fas fa-envelope"></i>&nbsp;Keep me in the loop!
-                    </button>
+                    ✉️&nbsp;&nbsp;<strong>Newsletter:</strong> you want to be aware about our upcoming camps? Simply subscribe and we'll make sure to always keep you in the loop!<br />
+                    <br />
+                    <button class="btn" id="subscribe-newsletter">Subscribe</button>
                 </p>
             </div>
         </div>
 
         <main class="site__content">
 
-            {% include pricing.html %}
+            {% include home/pricing.html %}
 
-            <section class="bg-alt">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6 center">
-                            <h2 class="txt-success">Primary</h2>
-                            <p>from 6 to 11 years old</p>
-                            <p>
-                                Every week our program is different and can be adjusted depending on various things like the weather, the children, the attendance for example ; but here is a downloadable version of a typical program for primary school children, take a peek!<br />
-                                <br />
-                                <a href="https://goo.gl/kh5hAL" class="btn btn-small btn-success" target="_blank">Holicamp Primary - Program Sample</a>
-                            </p>
-                        </div>
-                        <div class="col-6 center">
-                            <h2>Secondary</h2>
-                            <p>from 11 to 15 years old</p>
-                            <p>
-                                For secondary school children, our camps are a bit more organised around sport activities like frisbee, baseball, dodgeball, football or tennis while keeping core activities like yoga, fitness, handball or badminton too.<br />
-                                <br />
-                                <a href="https://goo.gl/fVgwLX" class="btn btn-small" target="_blank">Holicamp Secondary - Program Sample</a>
-                            </p>
-                        </div>
-                        <div class="col-12 center">
-                            <p>Find out more information about our programs from <a href="{{ '/about#what-is-the-program' | relative_url }}" itemprop="url">our about page</a>.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {% include home/camps-description.html %}
 
             <a id="booking"></a>
 
@@ -79,7 +53,7 @@ layout: compress
                     <h2 class="post-list-header">📅&nbsp;&nbsp;Autumn Half Term 2020</h2>
                     <div class="post-list">
                         {% for post in site.categories.autumn_ht_2020 %}
-                            {% include card.html %}
+                            {% include home/camp.html %}
                         {% endfor %}
                     </div>
                 </div>
