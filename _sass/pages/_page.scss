@@ -99,9 +99,6 @@ section.bg-light {
 
 section.bg-dark {
     background-color: $dark-bg-color;
-    * {
-        color: $bg-color;
-    }
 }
 
 .post-list-header {
