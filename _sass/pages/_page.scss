@@ -97,6 +97,10 @@ section.bg-light {
     }
 }
 
+section.bg-dark {
+    background-color: $dark-bg-color;
+}
+
 .post-list-header {
     width: 100%;
     text-align: center;
