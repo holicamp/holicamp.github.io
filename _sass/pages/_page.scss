@@ -87,13 +87,20 @@
     }
 }
 
-section.bg-alt {
+section.bg-light {
     background-color: $light-bg-color;
     .post-list .post-card {
         background-color: $bg-color;
         &.primary {
             background-color: $primary-very-light;
         }
+    }
+}
+
+section.bg-dark {
+    background-color: $dark-bg-color;
+    p, a, h1, h2, h3, h4, h5, h6 {
+        color: $bg-color;
     }
 }
 
