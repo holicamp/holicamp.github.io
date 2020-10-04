@@ -7,7 +7,7 @@ end: Friday 30th of October
 days: 5
 featured-img: tennis
 categories: autumn_ht_2020
-typeform-url: https://holicamp.typeform.com/to/AiP5WCQJ
+typeform-url: full
 level: primary
 type: outdoor
 ---
