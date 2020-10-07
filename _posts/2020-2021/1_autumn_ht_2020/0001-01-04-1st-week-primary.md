@@ -7,7 +7,7 @@ end: Friday 23rd of October
 days: 5
 featured-img: activity
 categories: autumn_ht_2020
-typeform-url: https://holicamp.typeform.com/to/vlvjrWAM
+typeform-url: full
 level: primary
 type: outdoor
 ---
