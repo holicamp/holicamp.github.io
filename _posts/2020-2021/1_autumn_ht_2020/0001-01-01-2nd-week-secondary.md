@@ -7,7 +7,7 @@ end: Friday 30th of October
 days: 5
 featured-img: frisbee
 categories: autumn_ht_2020
-typeform-url: https://holicamp.typeform.com/to/Xi0duAon
+typeform-url: full
 level: secondary
 type: outdoor
 ---
