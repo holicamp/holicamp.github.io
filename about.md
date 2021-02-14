@@ -23,7 +23,7 @@ We hope you appreciate our approach and we will do everything we can so your lit
 
 &nbsp;
 
-# Hiya! 👋
+# Bonjour ! 👋
 
 Our team is composed by selected professionals, working with children on a daily basis, animated by a real passion to deliver outstanding days out to your little ones.
 
