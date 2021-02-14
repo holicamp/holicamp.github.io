@@ -30,9 +30,8 @@ Our team is composed by selected professionals, working with children on a daily
 Speaking both 🇬🇧 English and 🇫🇷 French, we'll make sure they enjoy every single moment with us!
 
 - **Michaël Blain** - Physical Education teacher at [CFBL](https://www.cfbl.org.uk/)
-- **Guillaume Hainault** - Pupil supervisor at [CFBL](https://www.cfbl.org.uk/) and certified animator
-- **Tony Immordino** - Certified animator
 - **Alexis Canto** - Physical Education teacher at [CFBL](https://www.cfbl.org.uk/)
+- **Tony Immordino** - Certified animator
 
 ⚠️ Please be aware that Holicamp Ltd is not affiliated with the CFBL School and is not part of a CFBL Club.
 
