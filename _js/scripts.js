@@ -258,16 +258,16 @@ $( "#contactForm" ).submit( function( e ) {
 
     e.preventDefault();
 
-    var $btn = $( ".js-submit" ),
+    var $form = $("#contactForm"),
+        $btn = $( ".js-submit" ),
         $inputs = $( ".form__input input" ),
         $textarea = $( ".form__input textarea" ),
         $name = $( "input#name" ).val();
 
     $.ajax( {
 
-        // Change the email address here:
-        url: "https://formspree.io/hello@holicamp.org.uk",
-        method: "POST",
+        url: $form.attr('action'),
+        method: $form.attr('method'),
         data: $( this ).serialize(),
         dataType: "json",
 
