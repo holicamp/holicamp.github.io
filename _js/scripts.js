@@ -7,7 +7,6 @@ require( "lazysizes/plugins/unveilhooks/ls.unveilhooks.js" );
 $( document ).ready( function() {
     toggleMobileNav();
     ShowHideNav();
-    formCheck();
 });
 
 // Close modal if ESC is pressed
