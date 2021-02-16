@@ -5,6 +5,7 @@ description: Holiday play-scheme camp for children
 baseurl: ""
 url: "https://holicamp.org.uk"
 google_tag_manager: "UA-90339029-2"
+recaptcha_site_key: "6LfTc1oaAAAAAN5amUOU-hbU8DHHKMek3ZaPOp0J"
 formspree_id: "xnqoypoy"
 prices:
   outdoor:

@@ -1,5 +1,6 @@
 <br />
 <br />
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <form id="contactForm" action="https://formspree.io/f/{{ site.formspree_id }}" method="POST">
     <div class="form__input half">
         <label for="name">Name</label>
@@ -15,6 +16,8 @@
         <label for="message">Messages</label>
         <textarea type="text" name="message" id="message" rows="7" required></textarea>
     </div>
+
+    <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
 
     <input type="hidden" name="_subject" value="{{ site.title }} - Contact form">
     <input type="hidden" name="_format" value="plain" />
