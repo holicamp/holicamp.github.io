@@ -1,23 +1,22 @@
 <br />
 <br />
-<form id="contactForm" action="https://formspree.io/f/xnqoypoy" method="POST" novalidate>
-  <div class="form__input half">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" autocomplete="name" required>
-  </div>
+<form id="contactForm" action="https://formspree.io/f/{{ site.formspree_id }}" method="POST">
+    <div class="form__input half">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" autocomplete="name" required>
+    </div>
 
-  <div class="form__input input half">
-    <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;<small>We'll use this to get back to you. No spam or unexpected newsletters here.</small></label>
-    <input type="email" name="_replyto" id="email" autocomplete="email" required>
-  </div>
+    <div class="form__input input half">
+        <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;<small>We'll use this to get back to you. No spam or unexpected newsletters here.</small></label>
+        <input type="email" name="_replyto" id="email" autocomplete="email" required>
+    </div>
 
-  <div class="form__input">
-    <label for="message">Messages</label>
-    <textarea type="text" name="message" id="message" rows="7" autocomplete="message" required ></textarea>
-  </div>
+    <div class="form__input">
+        <label for="message">Messages</label>
+        <textarea type="text" name="message" id="message" rows="7" required></textarea>
+    </div>
 
-  <input type="hidden" name="_subject" value="{{site.title}} Contact">
-  <input type="hidden" name="_format" value="plain" />
-  <input class="hidden" type="text" name="_gotcha">
-  <button class="btn js-submit" type="submit" value="Send">Send</button>
+    <input type="hidden" name="_subject" value="{{ site.title }} - Contact form">
+    <input type="hidden" name="_format" value="plain" />
+    <button class="btn" type="submit" value="Send">Send</button>
 </form>

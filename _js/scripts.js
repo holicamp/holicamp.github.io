@@ -221,8 +221,9 @@ function formCheck() {
                 isError = true;
             }
         }
-        if ( isError === false ) {
-            $( "#contactForm" ).submit();
+
+        if (isError === false) {
+            $("#contactForm").submit();
         }
     } );
 }
