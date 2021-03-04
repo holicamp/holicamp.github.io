@@ -71,6 +71,17 @@ layout: compress
                     </div>
                 </div>
             </section>
+            
+            <section class="bg-light">
+                <div class="container">
+                    <h2 class="post-list-header">📅&nbsp;&nbsp;Summer Break 2021</h2>
+                    <div class="post-list">
+                        {% for post in site.categories.summer_2021 %}
+                            {% include home/camp.html %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
 
         </main>
 
