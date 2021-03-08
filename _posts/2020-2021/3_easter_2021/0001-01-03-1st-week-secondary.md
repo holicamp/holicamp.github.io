@@ -7,7 +7,7 @@ end: Friday the 9th of April
 days: 4
 featured-img: dodgeball
 categories: easter_2021
-typeform-url: https://holicamp.typeform.com/to/b3iB9a0q
+typeform-url: full
 level: secondary
 type: outdoor
 ---
