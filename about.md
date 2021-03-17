@@ -170,4 +170,4 @@ United Kingdom
 
 &nbsp;
 
-**Photo credit:** beautiful, free images gifted by the world’s most generous community of photographers on [Unsplash](https://unsplash.com).
+**Photo credit:** beautiful, free images gifted by the world’s most generous community of photographers on <a href="https://unsplash.com" target="_blank">Unsplash</a>.
