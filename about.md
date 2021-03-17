@@ -43,7 +43,7 @@ Speaking both 🇬🇧 English and 🇫🇷 French, we'll make sure they enjoy e
 
 # What is the program?
 
-Ever morning we will be ready to welcome the participants at **10.00am** at our _collection point_ and
+Every morning we will be ready to welcome the participants at **10.00am** at our _collection point_ and
 we will be finishing the day at around **3.15pm**. Find more information about dropping/collecting your kids
 further down this page.
 
