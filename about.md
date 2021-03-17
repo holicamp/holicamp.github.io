@@ -163,3 +163,11 @@ Based on our staff, every camp is limited in terms of the maximum number of part
 56A Athlone street  
 NW5 4LL London  
 United Kingdom  
+
+&nbsp;
+
+----
+
+&nbsp;
+
+**Photo credit:** beautiful, free images gifted by the world’s most generous community of photographers on [Unsplash](https://unsplash.com).
