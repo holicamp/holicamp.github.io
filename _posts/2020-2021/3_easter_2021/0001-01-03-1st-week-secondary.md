@@ -7,7 +7,7 @@ end: Friday the 9th of April
 days: 4
 featured-img: dodgeball
 categories: easter_2021
-typeform-url: full
+typeform-url: closed
 level: secondary
 type: outdoor
 ---
