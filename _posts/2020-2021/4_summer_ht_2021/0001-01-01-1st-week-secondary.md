@@ -7,7 +7,7 @@ end: Friday the 4th of June
 days: 4
 featured-img: basketball
 categories: summer_ht_2021
-typeform-url: https://holicamp.typeform.com/to/zqJQCQvz
+typeform-url: full
 level: secondary
 type: outdoor
 ---
