@@ -7,7 +7,7 @@ end: Friday the 4th of June
 days: 4
 featured-img: badminton-1
 categories: summer_ht_2021
-typeform-url: https://holicamp.typeform.com/to/KXtouO9w
+typeform-url: full
 level: primary
 type: outdoor
 ---
