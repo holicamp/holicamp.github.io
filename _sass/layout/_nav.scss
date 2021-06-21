@@ -48,13 +48,16 @@
   .header__logo--container {
     font-size: 1.6rem;
     font-weight: bold;
+    img {
+        width: 172px;
+    }
   }
 }
 
 .header__inner {
   display: flex;
   align-items: center;
-  height: 3.75em;
+  height: 5.75em;
   justify-content: space-between;
 }
 
@@ -62,7 +65,7 @@
   padding-bottom: .5rem;
   display: none;
   position: absolute;
-  top: 3.75em;
+  top: 5.75em;
   left: 0;
   width: 100%;
   height: auto;

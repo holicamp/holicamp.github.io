@@ -33,3 +33,26 @@ footer {
   height: 1.5rem;
   width: 1.5rem;
 }
+
+.social--wrapper,
+.footer__logo {
+    @include breakpoint($sm $md) {
+        width: 96%;
+    }
+}
+
+.footer__logo--container {
+    text-align: right;
+    img {
+        width: 250px;
+    }
+    @include breakpoint($xs $md) {
+        text-align: center;
+        img {
+            margin-top: 2em;
+            width: 300px;
+        }
+    }
+}
+
+
