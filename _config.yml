@@ -38,7 +38,8 @@ prices:
 markdown: kramdown
 highlighter: rouge # or pygments or null
 exclude:
-  - readme.md
+  - README.md
+  - LICENSE.md
   - node_modules
   - script
   - package.json
