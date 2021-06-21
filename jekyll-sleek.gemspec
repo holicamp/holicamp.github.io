@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^((assets|_layouts|_includes|_sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
+    f.match(%r{^((assets|_layouts|_includes|_sass)/|$)))}i)
   end
 
   spec.platform      = Gem::Platform::RUBY
