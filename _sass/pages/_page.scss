@@ -8,6 +8,10 @@
     background-position: 50%;
     background-size: cover;
 
+    @include breakpoint($xs $sm) {
+        height: 55em;
+    }
+
     &::before {
         position: absolute;
         display: block;
