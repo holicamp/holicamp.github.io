@@ -9,7 +9,7 @@
     background-size: cover;
 
     @include breakpoint($xs $sm) {
-        height: 55em;
+        height: 57em;
     }
 
     &::before {
