@@ -4,12 +4,12 @@ title: Terms & Conditions
 permalink: /legal/
 ---
 
-_“Holicamp” provide holiday play-schemes for children in London. It is managed by the director of the company, Michaël Blain._
+_“Holicamp” provide playful holiday sports camps for children in London. It is managed by the director of the company, Michaël Blain._
 
-**Holicamp Ltd**  
-56A Athlone street  
-NW5 4LL  
-London  
+**Holicamp Ltd**
+56A Athlone street
+NW5 4LL
+London
 United Kingdom
 
 ### 1 - Admissions

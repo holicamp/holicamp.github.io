@@ -1,7 +1,4 @@
 # Holicamp
-
-Holiday play-scheme camp for children.
-
 ## Local Development Setup
 
 * `npm install`
