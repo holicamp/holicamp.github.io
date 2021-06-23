@@ -73,7 +73,7 @@ If the weather allows it, we prefer to set our camp outdoors, in Hamsptead Heath
 
 Our meeting point is just behind the Parliament Hill Lido swimming pool.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.626200759412!2d-0.15380468392380175!3d51.55675297964324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMzJzI0LjMiTiAwwrAwOScwNS44Ilc!5e0!3m2!1sen!2suk!4v1536566287800" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br />
+<div class="map-responsive"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.626200759412!2d-0.15380468392380175!3d51.55675297964324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMzJzI0LjMiTiAwwrAwOScwNS44Ilc!5e0!3m2!1sen!2suk!4v1536566287800" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
 **Address**
 Parliament Hill Lido
@@ -93,7 +93,7 @@ so we can still organise our activities indoors.
 If the meeting point changes from outdoors to indoors during the day because of the weather, our staff
 will make sure to let you know in advance so you are sure where to pick-up your children.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d620.2371994505096!2d-0.1509338443844368!3d51.55083788786304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761afa3910f193%3A0x86d1c09788d78583!2sThe+Dome!5e0!3m2!1sen!2suk!4v1536566354898" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><br />
+<div class="map-responsive"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d620.2371994505096!2d-0.1509338443844368!3d51.55083788786304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761afa3910f193%3A0x86d1c09788d78583!2sThe+Dome!5e0!3m2!1sen!2suk!4v1536566354898" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
 **Address**
 The Dome
