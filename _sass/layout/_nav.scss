@@ -9,6 +9,7 @@
   will-change: transform;
   transition: transform .3s, background-color 0.5s ease;
   transform: translateY(0%);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 
   a {
     display: flex;
