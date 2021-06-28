@@ -31,6 +31,7 @@ input[type="button"] {
     color: $bg-color;
     background-color: lighten($button-dark, 14%);
     outline: 0;
+    border: none;
   }
 
   &.btn-small {
@@ -44,7 +45,6 @@ input[type="button"] {
     :focus,
     :active {
       background-color: darken($primary, 14%);
-      outline: 0;
     }
   }
 }
