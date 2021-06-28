@@ -56,7 +56,7 @@ primary school children, take a peek!
 For secondary school children, our camps are a bit more organised around sport activities like frisbee,
 baseball, dodgeball, football or tennis while keeping core activities like yoga, fitness or orienteering too.
 
-<a href="https://goo.gl/fVgwLX" class="btn btn-small btn-success" target="_blank">Holicamp Secondary - Program Sample</a>
+<a href="https://goo.gl/fVgwLX" class="btn btn-small btn-light" target="_blank">Holicamp Secondary - Program Sample</a>
 
 &nbsp;
 
