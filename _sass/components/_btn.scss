@@ -26,8 +26,8 @@ input[type="button"] {
   }
 
   &:hover,
-  :focus,
-  :active {
+  &:focus,
+  &:active {
     color: $bg-color;
     background-color: lighten($button-dark, 14%);
     outline: 0;
@@ -42,8 +42,8 @@ input[type="button"] {
   &.btn-light {
     background-color: $primary;
     &:hover,
-    :focus,
-    :active {
+    &:focus,
+    &:active {
       background-color: darken($primary, 14%);
     }
   }
@@ -64,7 +64,7 @@ button:disabled {
   transition: background-color .2s ease;
 
   &:hover,
-  :focus {
+  &:focus {
     background-color: $button-dark;
   }
 }
