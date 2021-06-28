@@ -24,11 +24,11 @@
 
   {% endif %}
 
-  <link rel="stylesheet" href="{{ '/assets/css/main.css?651984' | relative_url }}">
-  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css?651984' | relative_url }}"></noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?{{ 'now' | date: '%s' }}">
+  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?{{ 'now' | date: '%s' }}"></noscript>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
   <script type="text/javascript">
-   {% include loadCss.js %}
+    {% include loadCss.js %}
   </script>
 </head>
