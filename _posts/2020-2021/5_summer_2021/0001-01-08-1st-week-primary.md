@@ -7,7 +7,7 @@ end: Friday the 9th of July
 days: 5
 featured-img: alaric-sim
 categories: summer_2021
-typeform-url: full
+typeform-url: closed
 level: primary
 type: outdoor
 ---
