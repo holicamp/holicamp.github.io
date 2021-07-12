@@ -7,7 +7,7 @@ end: Friday the 9th of July
 days: 5
 featured-img: chang-duong
 categories: summer_2021
-typeform-url: https://holicamp.typeform.com/to/zmxXTNlC
+typeform-url: closed
 level: secondary
 type: outdoor
 ---
